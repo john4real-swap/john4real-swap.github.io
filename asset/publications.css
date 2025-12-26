@@ -80,3 +80,27 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* =========================================
+   Publications: author & journal color
+   ========================================= */
+
+/* 作者名整体变为灰色 */
+.publications .author {
+    color: #6c757d;
+}
+
+/* 作者名中加粗的自己，也保持灰色 */
+.publications .author strong {
+    color: #6c757d;
+}
+
+/* 期刊信息整体变为灰色 */
+.publications .periodical {
+    color: #6c757d;
+}
+
+/* 期刊名里加粗部分，也保持一致灰色 */
+.publications .periodical strong {
+    color: #6c757d;
+}
