@@ -1,1 +1,1 @@
-git checkout -b remove-raw-manuscript git rm asset/raw_manuscript.pdf git commit -m "Remove asset/raw_manuscript.pdf" git push -u origin remove-raw-manuscript
+
